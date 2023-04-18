@@ -1,38 +1,115 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: #3e5669;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+  background-color: rgb(13, 141, 226);
+  color: floralwhite;
+  width: 100%;
+  height: 60px;
+}
+header h2
+{
+  
+  padding-top: 8px;
+  padding-bottom: 6px;
+  padding-left: 5%;
+}
+.forms
+{
+ 
+  width: 100%;
+ display: flex;
+ justify-content: center;
+ margin-top: 6%;
+
+
+}
+
+form
+{
+  background: floralwhite;
+  border-radius: 50px;
+}
+
+input
+{
+  height: 40px;
+  width: 300px;
+  background: transparent;
+  padding: 0px 10px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+
+}
+button
+{
+  background: transparent;
+  margin-right: 10px;
+  border: none;
+  height: 30px;
+  width: 30px;
+}
+
+.temp-container
+{
+ 
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 3%;
+ padding: 10px;
+ color: floralwhite;
+
+ 
+}
+.temp-container .location
+{
+  font-size: 3em;
+}
+
+.temp-container .temp
+{
+  font-size: 2em;
+  font-weight: bolder;
+  padding: 15px;
+}
+
+.temp-container .descriptiion
+{
+  font-size: 3em;
+ 
+}
+main
+{
   text-align: center;
+  margin-left: 4%;
+  margin-right: 4%;
+  width: 20%;
+  background-color:  rgba(255,255,255,0.1);
+  border-radius: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.more
+{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 15%;
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 10px;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.more p
+{
+  padding: 20px;
+  font-size: 1.2em;
 }
